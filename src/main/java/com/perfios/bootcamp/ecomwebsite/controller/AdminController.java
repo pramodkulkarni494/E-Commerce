@@ -163,7 +163,10 @@ public class AdminController {
         return "404 error!";
     }
 
-    // Users section
+    /**
+     *  Customer Section
+     *  Admin can perform all crud operations on customers
+     */
 
     @Autowired
     UserServiceImpl userService;
